@@ -11,8 +11,8 @@ body{
 
 h1{
   font-size: 50px;
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 
 h2{
@@ -133,20 +133,19 @@ header{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  color: yellow;
   height: 400px;                /* Parallax effect */
 
   /*Your code here - cover the entire row*/
-  background-color: #ddd;
 
   grid-column-start: 1;
   grid-column-end: -1;
   grid-row: 2/ span 1;
   width: 100vw;
+  color: white;
 }
 
 header p{
-  color: yellow;
+  color: white;
   font-size: 24px;
   padding: 100px;
   text-align: center;
@@ -547,7 +546,7 @@ header p{
     margin: auto;
   }
   .header {
-      color: yellow;
+      color: white;
       font-size: 27px;
       padding: 10px;
   }
@@ -671,4 +670,3 @@ header p{
       top:0;
     }
   }
-  
